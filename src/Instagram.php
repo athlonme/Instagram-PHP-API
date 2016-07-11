@@ -70,8 +70,9 @@ class Instagram
      * Available scopes.
      *
      * @var string[]
+     * athlonme add 'follower_list' , 'public_content'
      */
-    private $_scopes = array('basic', 'likes', 'comments', 'relationships');
+    private $_scopes = array('basic', 'likes', 'comments', 'relationships' , 'follower_list' , 'public_content');
 
     /**
      * Available actions.
